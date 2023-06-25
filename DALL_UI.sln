@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALL_UI", "DALL_UI.csproj", "{AB21E805-9C90-47CB-8C0C-944E49287DB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceWeave.Controls", "SourceWeave.Controls\SourceWeave.Controls.csproj", "{7286E3A4-21F9-45DA-A0CD-2B2037289F99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB21E805-9C90-47CB-8C0C-944E49287DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB21E805-9C90-47CB-8C0C-944E49287DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB21E805-9C90-47CB-8C0C-944E49287DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB21E805-9C90-47CB-8C0C-944E49287DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7286E3A4-21F9-45DA-A0CD-2B2037289F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7286E3A4-21F9-45DA-A0CD-2B2037289F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7286E3A4-21F9-45DA-A0CD-2B2037289F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7286E3A4-21F9-45DA-A0CD-2B2037289F99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4537F65-27C7-4592-A971-4EC9FFD95995}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DALL_UI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BackgroundColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#2D2727</Value>
+    </Setting>
+    <Setting Name="SecondaryBaseColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#576CBC</Value>
+    </Setting>
+    <Setting Name="InteractiveColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#A5D7E8</Value>
+    </Setting>
+    <Setting Name="FontColor" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#F5F2E7</Value>
+    </Setting>
+    <Setting Name="SpilitterWidth" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="FontSize" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">15</Value>
+    </Setting>
+    <Setting Name="MarginSet" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="SizeSet" Type="System.UInt16" Scope="User">
+      <Value Profile="(Default)">25</Value>
+    </Setting>
+    <Setting Name="UIKEY" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

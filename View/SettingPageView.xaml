@@ -1,0 +1,35 @@
+﻿<sw:SWWindow x:Class="DALL_UI.View.SettingPageView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:sw="clr-namespace:SourceWeave.Controls;assembly=SourceWeave.Controls" 
+        xmlns:local="clr-namespace:DALL_UI.View"
+        mc:Ignorable="d"
+        Title="SettingPageView" Height="130" Width="300" Style="{StaticResource WindowStyle}" Name="Window">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="KEY:" Style="{StaticResource TextBlockStyle}"/>
+            <TextBox Grid.Column="1" Text="{Binding Key,UpdateSourceTrigger=LostFocus}"/>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="1" Style="{StaticResource SetButtonHeight}" Content="確定"
+                    Command="{Binding SaveDataCommand}"  CommandParameter="{Binding ElementName=Window}"/>
+            <Button Style="{StaticResource SetButtonHeight}" Content="取消"
+                     Command="{Binding CloseCommand}"  CommandParameter="{Binding ElementName=Window}"/>
+        </Grid>
+        
+    </Grid>
+</sw:SWWindow>
