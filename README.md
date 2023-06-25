@@ -1,5 +1,5 @@
 # DALL_UI
-該程式是使用openai 的 dall ai做溝通弄出來的測試ui畫面
+該程式是使用openai 的 dall.E ai做溝通弄出來的測試ui畫面
 
 該介面需要前往 openai 獲取 key才可以使用該介面
 
@@ -31,3 +31,6 @@ https://openai.com/
 生成KEY 並且複製貼貼到UI的 KEY 那邊 即可開始使用
 ![image](https://github.com/KKLaugh945/DALL_UI/assets/94297037/e7301b8d-0a9f-411a-bab3-689c92073ad7)
 
+在使用前要先確認自己是否具備使用量 如果是新帳號 OPENAI 會給一些新手免費的用量
+
+用量可以在 usage 頁面查看
